@@ -10,12 +10,12 @@ namespace Korova
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(CowCounter(45));
+            
         }
 
         public static string CowCounter (int n)
         {
-             int lastDigit = n % 10;
+            int lastDigit = n % 10;
             int lastTwoDigits = n % 100;
             string result = string.Empty;
 
